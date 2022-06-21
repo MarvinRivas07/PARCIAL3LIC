@@ -1,0 +1,18 @@
+create database Heladeria 
+
+use Heladeria
+
+create table Helados(
+id int primary key identity (1,1),
+nombre varchar (50),
+precio decimal (5,3),
+descripcion varchar (50),
+cantidad int,
+
+
+
+
+);
+
+
+select * from Helados
